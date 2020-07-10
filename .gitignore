@@ -1,0 +1,12 @@
+node_modules/
+public/
+dist/
+.cache/
+.vscode/
+.idea/
+.build/
+yarn-error.log
+.DS_Store
+
+# envs
+.env*

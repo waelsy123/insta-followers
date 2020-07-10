@@ -1,0 +1,24 @@
+{
+  "name": "insta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "frida": "^12.10.4",
+    "html-get": "^2.7.17",
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0",
+    "pg": "^8.2.1",
+    "puppeteer": "^4.0.1",
+    "sentencer": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_TLS_REJECT_UNAUTHORIZED='0' node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
