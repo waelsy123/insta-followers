@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const axios = require('axios')
 const { Client } = require('pg')
 const fetch = require('node-fetch')
@@ -47,8 +49,8 @@ const connectToDatabase = async () => {
 
 function getRandomInt () {
   return (
-    Math.floor(Math.random() * Math.floor(process.env.RANDOM_MAX)) +
-    process.env.RANDOM_MIN
+    Math.floor(Math.random() * Math.floor(parseInt(process.env.RANDOM_MAX))) +
+    parseInt(process.env.RANDOM_MIN)
   )
 }
 
@@ -148,7 +150,7 @@ const like = async db => {
     )
   ).rows[getRandomIntTillTen() + 10]
 
-  console.log('getListOfUsersWhoLikePosts -> user', user)
+  console.log('like -> user', user)
 
   try {
     await likePostsByUsername(user.username)
