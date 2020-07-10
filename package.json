@@ -18,7 +18,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_TLS_REJECT_UNAUTHORIZED='0' node index.js"
+    "start": "NODE_TLS_REJECT_UNAUTHORIZED='0' node server.js",
+    "bot": "NODE_TLS_REJECT_UNAUTHORIZED='0' node bot.js"
   },
   "author": "",
   "license": "ISC"
