@@ -10,7 +10,7 @@
     "frida": "^12.10.4",
     "html-get": "^2.7.17",
     "lodash": "^4.17.15",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^3.1.1",
     "pg": "^8.2.1",
     "puppeteer": "^4.0.1",
     "sentencer": "^0.2.1"
